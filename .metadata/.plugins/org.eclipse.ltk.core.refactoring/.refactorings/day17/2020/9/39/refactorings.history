@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;api.lang.string.StringSubString&apos; to &apos;StringSubstring&apos;&#x0D;&#x0A;- Original project: &apos;day17&apos;&#x0D;&#x0A;- Original element: &apos;api.lang.string.StringSubString&apos;&#x0D;&#x0A;- Renamed element: &apos;api.lang.string.StringSubstring&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StringSubString&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;api.lang.string{StringSubString.java[StringSubString" matchStrategy="1" name="StringSubstring" qualified="false" references="true" similarDeclarations="false" stamp="1600941290881" textual="false" version="1.0"/>
+</session>

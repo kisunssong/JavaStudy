@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;day14/src/poly.instanceof_&apos;&#x0D;&#x0A;- Original project: &apos;day14&apos;&#x0D;&#x0A;- Destination element: &apos;day14/src/poly.instanceof_&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     poly.person.Employee.java&#x0D;&#x0A;     poly.person.Teacher.java&#x0D;&#x0A;     poly.person.Student.java&#x0D;&#x0A;     poly.person.Person.java" description="Copy compilation units" destination="/src&lt;poly.instanceof_" element1="/src&lt;poly.person{Employee.java" element2="/src&lt;poly.person{Teacher.java" element3="/src&lt;poly.person{Student.java" element4="/src&lt;poly.person{Person.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1600073672407" units="4" version="1.0"/>
+</session>
