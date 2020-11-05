@@ -1,7 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=day11/src&lt;inherit.goodcase{Person.java[Person" modifiers="1" timestamp="1602059462817"/>
-<typeInfo handle="=day16/src&lt;inter.pet{Animal.java[Animal" modifiers="1025" timestamp="1600678194636"/>
-<typeInfo handle="=day16/src&lt;inter.pet{IPet.java[IPet" modifiers="513" timestamp="1600678194629"/>
-<typeInfo handle="=day16/src&lt;inter.pet{Fish.java[Fish" modifiers="1025" timestamp="1600678194621"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
