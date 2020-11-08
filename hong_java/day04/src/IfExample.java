@@ -15,5 +15,4 @@ public class IfExample {
 		}
 		scan.close();
 	}
-
 }
