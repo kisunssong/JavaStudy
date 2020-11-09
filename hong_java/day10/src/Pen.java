@@ -24,5 +24,4 @@ public class Pen {
 		System.out.println("색상: " + color);
 		System.out.println("가격: " + price);
 	}
-	
 }

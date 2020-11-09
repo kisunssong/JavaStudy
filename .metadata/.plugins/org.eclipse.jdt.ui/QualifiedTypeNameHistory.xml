@@ -21,4 +21,10 @@
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="com.abc.model.BoardVO"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="Parent01"/>
+    <fullyQualifiedTypeName name="Parent04"/>
+    <fullyQualifiedTypeName name="Point13"/>
+    <fullyQualifiedTypeName name="Point15"/>
+    <fullyQualifiedTypeName name="HandPhone"/>
+    <fullyQualifiedTypeName name="DicaPhone"/>
 </qualifiedTypeNameHistroy>
