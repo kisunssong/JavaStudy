@@ -1,0 +1,46 @@
+class Animal {
+	
+	String walk; //걷는다
+	int foot; //발
+	Animal(String walk, int foot) {
+		this.walk=walk; this.foot=foot;
+	}	
+}
+class Dog extends Animal{
+	
+	String name;
+	Dog(String name, int foot, String walk) {
+		super(walk,foot);
+		this.name=name;
+	}
+	void getKind() {
+		System.out.printf("%d는 동물이다.\n",name);
+	}
+	void walk() {
+		System.out.printf("%d는 %d발로 %d.\n",name,foot,walk);
+	}
+}
+class Human extends Animal{
+	String name;
+	Human(String name, int foot, String walk) {
+		super(walk,foot);
+		this.name=name;
+	}
+	void getKind() {
+		System.out.printf("%d는 사람이다.\n",name);
+	}
+	void walk() {
+		System.out.printf("%d는 %d발로 %d.\n",name,foot,walk);
+	}
+}
+
+public class Ex16_04 {
+	public static void main(String[] args) {
+		Dog d = new Dog("강아지",4);
+		d.getKind();
+		d.walk();
+		Human h = new Human("소녀",2);
+		h.getKind();
+		h.walk();
+	}
+}

@@ -1,0 +1,44 @@
+class Animal {
+	
+	protected String walk; //°È´Â´Ù
+	protected int foot; //¹ß
+	public Animal() {}
+	public Animal(String walk, int foot) {
+		this.walk=walk; this.foot=foot;
+	}
+	public void getKind() {
+		
+	}
+	public void walk() {
+		
+	}
+}//Animal
+class Dog extends Animal{
+	
+	String name;
+	public Dog() {	
+	}
+	public Dog(String walk, int foot) {		
+		super(walk,foot);
+	}
+
+}//Dog
+class Human extends Animal{
+	
+	public Human() {		
+	}
+	public Human(String walk, int foot) {
+		super(walk,foot);
+	}
+}
+
+public class Ex16_04 {
+	public static void main(String[] args) {
+		Dog d = new Dog("°­¾ÆÁö",4);
+		d.getKind();
+		d.walk();
+		Human h = new Human("¼Ò³à",2);
+		h.getKind();
+		h.walk();
+	}
+}

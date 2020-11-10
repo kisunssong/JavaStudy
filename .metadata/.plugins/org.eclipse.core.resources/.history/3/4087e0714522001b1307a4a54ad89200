@@ -1,0 +1,25 @@
+class Point08 {
+// super(); 생략됨. 묵시적으로 최고조상 object클래스의 기본생성자 호출
+	protected int x = 10;
+	protected int y = 20;
+	
+	public Point08() {
+		System.out.println("슈퍼 클래스인 Point08 생성자 호출! ");
+	}
+}
+
+class Point09 extends Point08 {
+	
+	public Point09() {
+		super(); // Point08 부모클래스 기본생성자 호출. 생략가능
+		System.out.println("Point09 생성자 호출!");
+	}
+}
+
+public class Extend07 {
+	public static void main(String[] args) {
+		
+		Point09 p = new Point09();
+	
+	}
+}
