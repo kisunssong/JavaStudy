@@ -1,0 +1,16 @@
+package net.abc.Circ;
+package net.abc.Rect;
+package net.abc.Tria;
+
+
+public class Abs12 {
+	public static void main(String[] args) {
+		
+		Circ c = new Circ();
+		c.draw();
+		Rect r = new Rect();
+		r.draw();
+		Tria t = Tria();
+		t.draw();
+	}
+}

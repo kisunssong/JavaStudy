@@ -10,12 +10,10 @@ public class MainClass {
 		p.method2();
 //		p.method3(); // Child가 가지고 있는 본래 메서드
 		System.out.println("-----------------------");
-		
 		Child c = (Child)p;
 		c.method3();
 		c.method1();
 		c.method2();
-		
 		Child cc = new Child();
 		cc.method3();
 		

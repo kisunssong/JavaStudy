@@ -28,5 +28,6 @@ public class MainClass {
 			System.out.println("****** 사람의 정보 *****");
 		}
 		System.out.println(p.info());
+		
 	}
 }

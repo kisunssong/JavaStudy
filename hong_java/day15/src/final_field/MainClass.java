@@ -20,6 +20,7 @@ public class MainClass {
 		System.out.println("국적: " + park.nation);
 		System.out.println("이름: " + park.name);
 		System.out.println("나이: " + park.age);
+		
 	}
 
 }

@@ -29,4 +29,9 @@
     <fullyQualifiedTypeName name="DicaPhone"/>
     <fullyQualifiedTypeName name="Abstract09"/>
     <fullyQualifiedTypeName name="SubClass10"/>
+    <fullyQualifiedTypeName name="poly.instanceof_.Person"/>
+    <fullyQualifiedTypeName name="net.abc.model01.AbsRef"/>
+    <fullyQualifiedTypeName name="net.abc.model02.Circ"/>
+    <fullyQualifiedTypeName name="net.abc.model02.Rect"/>
+    <fullyQualifiedTypeName name="FinalClass"/>
 </qualifiedTypeNameHistroy>

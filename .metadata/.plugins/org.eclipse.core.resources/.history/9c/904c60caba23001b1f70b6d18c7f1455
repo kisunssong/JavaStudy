@@ -1,0 +1,13 @@
+package net.abc.model02;
+
+public class Abs12 {
+	public static void main(String[] args) {
+		
+		Cira c = new Cira();
+		c.draw();
+		Rect r = new Rect();
+		r.draw();
+		Tria t = Tria();
+		t.draw();
+	}
+}
