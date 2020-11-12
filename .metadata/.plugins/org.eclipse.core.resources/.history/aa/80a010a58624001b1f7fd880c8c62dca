@@ -1,0 +1,5 @@
+package com.naver.model;
+
+public abstract class IShapeClass {
+
+}

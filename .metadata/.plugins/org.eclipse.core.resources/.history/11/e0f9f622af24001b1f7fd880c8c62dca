@@ -1,0 +1,38 @@
+class Student {
+	String name;
+	int age;
+	
+	Student(String name) {
+		this.name = name;
+	}
+	Student(String name, int age) {
+		this.name = name; this.age = age;
+	}
+	
+	public boolean equals(Object obj) {
+		return true;
+	}
+}
+public class Test2 {
+	public static void main(String[] args) {
+		
+		Student song = new Student("송기선");
+		Student song1 = new Student("송기선");
+		System.out.println("song의 주소: "+song);
+		System.out.println("song1의 주소: "+song1);
+		System.out.println("=========================");
+		
+		System.out.println("(객체주소) == 값을비교");
+		if(song == song1) {
+			System.out.println("같다");
+		}else {
+			System.out.println("틀리다");
+		}
+		System.out.println("(객체값) equals 값을 비교");
+		if(song.equals(song1)) {
+			System.out.println("같다");
+		}else {
+			System.out.println("틀리다");
+		}
+	}
+}

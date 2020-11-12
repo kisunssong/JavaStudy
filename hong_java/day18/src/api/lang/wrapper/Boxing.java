@@ -33,3 +33,4 @@ public class Boxing {
 		byte y = val5.byteValue();
 	}
 }
+// Ãâ·Â°ª: [100, 3.51, H, false, 75, hello]

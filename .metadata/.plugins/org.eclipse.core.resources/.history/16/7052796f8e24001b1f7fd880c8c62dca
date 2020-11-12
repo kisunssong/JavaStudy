@@ -1,0 +1,8 @@
+package com.naver.model;
+
+public class Test {
+	
+	static void pr(IShapeClass p) {
+		IShapeClass.pr();
+	}
+}

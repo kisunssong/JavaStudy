@@ -1,0 +1,8 @@
+package com.naver.model;
+
+public interface IShapeClass {
+	 
+	 void pr() {
+		 System.out.println("그립니다.");
+	 }
+}

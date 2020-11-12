@@ -16,5 +16,8 @@ public class StringIndexOf {
 		int location = sbj.indexOf("프");
 		System.out.println("'프'의 인덱스번호: " + location);
 		
+		//문자열의 index3 번부터 출력
+		System.out.println(sbj.substring(3));
+		
 	}
 }

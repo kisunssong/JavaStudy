@@ -1,0 +1,20 @@
+package com.naver.model2;
+
+import com.naver.model.IShapeClass;
+
+public class IShape1 implements IShapeClass {
+
+	public void draw() {
+		
+	}
+	public void Circ() {
+		System.out.println("원을 그린다");
+	}
+	public void Rect() {
+		System.out.println("사각형 그린다");
+	}
+	public void Tria() {
+		System.out.println("삼각형 그린다");
+	}
+
+}

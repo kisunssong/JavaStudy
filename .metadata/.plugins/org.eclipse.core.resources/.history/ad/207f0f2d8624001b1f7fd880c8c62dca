@@ -1,0 +1,13 @@
+package com.naver.model2;
+
+import com.naver.model.IShapeClass;
+
+public class Inter extends IShapeClass {
+
+	@Override
+	void draw() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

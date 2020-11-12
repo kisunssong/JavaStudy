@@ -34,4 +34,7 @@
     <fullyQualifiedTypeName name="net.abc.model02.Circ"/>
     <fullyQualifiedTypeName name="net.abc.model02.Rect"/>
     <fullyQualifiedTypeName name="FinalClass"/>
+    <fullyQualifiedTypeName name="MyInter11"/>
+    <fullyQualifiedTypeName name="com.naver.model.IShapeClass"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
 </qualifiedTypeNameHistroy>
