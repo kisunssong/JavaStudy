@@ -1,0 +1,24 @@
+
+public class Date07 {
+	public static void main(String[] args) {
+		
+		String s = " Hello Java ";
+		int a = s.length();
+		//문자열 개수 반환. 공백 포함. 첫 문장 시작 1 : 12
+		int length = s.trim().length();
+		//trim()양쪽 공백을 제거하고 length()길이 반환 : 10
+		
+		String fullName = "Hello.java";
+		int index = fullName.indexOf('.');
+		//'.'단일문자를 맨 왼쪽부터 찾아서 가장 먼저 나오는 문자 
+		//기준으로 왼쪽부터 카운트해서 반환 첫 문장 시작 0 : 5
+		
+		String b = "Hello.java";
+		int index1 = b.indexOf('.');
+		String b1 = b.substring('.');
+		System.out.println(b1);
+//		for(int i=0; i<index1; i++) {
+//			
+//		}
+	}
+}

@@ -1,0 +1,20 @@
+class Father03 {
+	int x = 10;
+	int y = 20;
+}
+class Child03 extends Father03 {
+	int x = 100;
+	int y = 200;
+	int z = 30;
+	
+	void print() {
+		System.out.printf("xÁÂÇ¥:%d yÁÂÇ¥:%d zÁÂÇ¥:%d",x,y,z);
+	}
+}
+
+public class WeekEx03 {
+	public static void main(String[] args) {
+		Child03 ch = new Child03();
+		ch.print();
+	}
+}

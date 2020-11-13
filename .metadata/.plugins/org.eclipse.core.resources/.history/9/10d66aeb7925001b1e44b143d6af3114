@@ -1,0 +1,31 @@
+class Father04 {
+	protected int a;
+	protected int b;
+	
+	Father04 (int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+}
+class Child04 extends Father04{
+	protected int c;
+	
+	Child04 () {
+		super(100,200); //오버로딩 된 생성자 호출
+	}
+	Child04 (int a, int b, int c) {
+		super(a,b);
+		this.c = c;
+	}
+	void print() {
+		System.out.printf("a값:%d b값:%d c값:%d",a,b,c);
+	}
+}
+public class WeekEx04 {
+	public static void main(String[] args) {
+		Child04 ch = new Child04();
+		ch.print();
+		Child04 ch1 = new Child04(10,20,30);
+		ch1.print();
+	}
+}

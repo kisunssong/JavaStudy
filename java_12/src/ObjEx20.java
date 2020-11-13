@@ -1,4 +1,5 @@
 
+import java.util.*;
 import java.util.StringTokenizer;
 public class ObjEx20 {
 	public static void main(String[] args) {
@@ -15,9 +16,9 @@ public class ObjEx20 {
 		String ph02 = ph.nextToken();//두번째 분리된 폰번호
 		String ph03 = ph.nextToken();//세번째 분리된 폰번호
 		
-		System.out.println("첫번째 폰번호: "+ph01);
-		System.out.println("두번째 폰번호: "+ph02);
-		System.out.println("세번째 폰번호: "+ph03);
+		
+		
+		
 	}
 }
 /*

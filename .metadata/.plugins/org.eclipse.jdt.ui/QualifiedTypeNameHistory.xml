@@ -20,7 +20,6 @@
     <fullyQualifiedTypeName name="Document"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="com.abc.model.BoardVO"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="Parent01"/>
     <fullyQualifiedTypeName name="Parent04"/>
     <fullyQualifiedTypeName name="Point13"/>
@@ -36,5 +35,11 @@
     <fullyQualifiedTypeName name="FinalClass"/>
     <fullyQualifiedTypeName name="MyInter11"/>
     <fullyQualifiedTypeName name="com.naver.model.IShapeClass"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="Father02"/>
+    <fullyQualifiedTypeName name="Father08"/>
 </qualifiedTypeNameHistroy>

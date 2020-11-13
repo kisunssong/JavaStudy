@@ -1,0 +1,20 @@
+class Father02 {
+	void f02() {
+		System.out.println("부모클래스 f02() 메서드");
+	}
+}
+class Child02 extends Father02 {
+	void f02() {
+		System.out.println("자식클래스 f02() 메서드");
+	}
+}
+
+public class WeekEx02 {
+	public static void main(String[] args) {
+		Child02 ch = new Child02();
+		ch.f02();
+		
+		Father02 fa = new Father02();
+		fa.f02();
+	}
+}
