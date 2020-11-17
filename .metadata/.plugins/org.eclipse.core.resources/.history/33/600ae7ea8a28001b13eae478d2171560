@@ -1,0 +1,5 @@
+
+public abstract class A {
+	abstract void aa();
+	abstract void bb();
+}

@@ -4,11 +4,13 @@
 applyBackground=false
 approved.defs.file.last.changed.time=1599254320000
 codemix.dont.show.upsell.until=1605965835325
-configurationInstallLocation=/E\:/java\uAE30\uCD08\uC218\uC5C5/eclipse/
+configurationInstallLocation=/C\:/Users/User/eclipse/jee-2020-09/eclipse/
 eclipse.preferences.version=1
 iconcolormode=primary
-last.download.attempt.time=1603806776888
-lastConfiguration=1605226117450
+includeThemingInOomph=false
+last.download.attempt.time=1605577632298
+lastConfiguration=1605571594447
 newinstall=false
+overridePEFontSize=false
 showWelcomeDialog=false
 workbench.theme=Dark Gray

@@ -1,0 +1,4 @@
+
+public abstract class A {
+	abstract void aa();
+}

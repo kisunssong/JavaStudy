@@ -1,0 +1,14 @@
+import java.util.Enumeration;
+import java.util.Vector;
+
+public class ColGeneric03 {
+	public static void main(String[] args) {
+		
+		Vector v = new Vector();
+		for(int i=1; i<=3; i++) {
+			v.add(new Integer(i*10));
+			Enumeration enu = v.elements();
+			System.out.println(enu);
+		}
+	}
+}

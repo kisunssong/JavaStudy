@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+문제) 1. score배열을 List를 구현상속한 ArrayList를 활용해서 정수 숫자값만 저장가능한
+컬렉션 제네릭 scoreList를 생성하자
+2. 반복문을 활용하여 배열원소값을 컬렉션에 추가한 다음 정수 타입 총점과 실수 타입
+평균을 구한다.
+*/
+public class ColGeneric13 {
+	public static void main(String[] args) {
+		
+		int[] score = {100,90,80,90,80};
+		
+		int sum = 0;
+		double average = 0;
+		List<Integer> scoreList = new ArrayList<>();
+		for(int i=0; i<score.length; i++) {
+			scoreList.add(score[i]);
+			sum += scoreList.get(i);
+			average += scoreList.get(i);
+		}
+		System.out.println("총점: "+sum);
+		System.out.printf("평균: %.2f"+average/score.length);
+	}
+}

@@ -1,0 +1,9 @@
+
+public class C extends A{
+	void aa() {
+		System.out.println("C 오버라이딩");
+	}
+	void cc() {
+		System.out.println("C");
+	}
+}

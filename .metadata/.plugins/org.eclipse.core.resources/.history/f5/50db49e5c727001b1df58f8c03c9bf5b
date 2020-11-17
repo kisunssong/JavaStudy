@@ -1,0 +1,16 @@
+import java.util.Stack;
+
+public class ColGeneric08 {
+	public static void main(String[] args) {
+		
+		Stack myStack = new Stack();
+		myStack.push("1-java");
+		myStack.push("2-oracle");
+		myStack.push("1-jsp");
+		
+		while(!myStack.isEmpty()) { //isEmpty: 클래스변수 안에 내용 유무확인, boolean반환
+			System.out.println(myStack.pop());
+		}
+		System.out.println("===================");
+	}
+}

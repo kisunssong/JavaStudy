@@ -1,0 +1,21 @@
+import java.awt.Button;
+import java.awt.FlowLayout;
+import java.awt.Frame;
+
+class Frame07 extends Frame() {	
+	
+		Button redBtn;
+		Button blueBtn;
+		
+		public Frame07() {
+			setLayout(new FlowLayout());
+			
+			redBtn = new Button("red");
+			blueBtn = new Button("blue");
+			
+		}
+		
+}
+public class Gui07 {
+
+}
