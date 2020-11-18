@@ -1,8 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=ch_java/C:\/Users\/User\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\/jre\/lib\/jrt-fs.jar`java.base=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/14\/docs\/api\/=/&lt;java.lang.runtime(ObjectMethods.class[ObjectMethods" modifiers="33" timestamp="1597451630000"/>
-    <typeInfo handle="=ch_java/src&lt;net.abc.model01{AbsRef.java[AbsRef" modifiers="1025" timestamp="1605057073338"/>
-    <typeInfo handle="=ch_java/src&lt;net.abc.model01{Abs1.java[Abs1" modifiers="1025" timestamp="1605065378565"/>
-    <typeInfo handle="=ch_java/src&lt;net.abc.model02{Abs2.java[Abs2" modifiers="1025" timestamp="1605065591622"/>
-    <typeInfo handle="=java_12/src&lt;com.naver.model{IShapeClass.java[IShapeClass" modifiers="513" timestamp="1605148056699"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

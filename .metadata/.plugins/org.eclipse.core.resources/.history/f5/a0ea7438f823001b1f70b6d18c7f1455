@@ -1,8 +1,0 @@
-class Mt02 {
-	void pr(int a) {
-		System.out.println(a);
-	}
-}
-public class Ex2_02 {
-
-}

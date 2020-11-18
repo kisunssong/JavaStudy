@@ -1,8 +1,0 @@
-
-public class Date04 {
-	public static void main(String[] args) {
-		String s = "Hello";
-		char c = s.charAt(1); //첫문자 0부터
-		System.out.println(c);
-	}
-}

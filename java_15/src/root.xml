@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?><!-- 외부 패키지 api 읽어오기 -->
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" >
+<!-- HBox는 컴포넌트를 수평으로 배치하는 레이아웃 -->
+   <padding><!-- xml주석문기호, 안쪽여백설정 -->
+     <Insets top="10" right="10" bottom="10" left="10" />
+     <!-- 시계방향으로 위,오른쪽,아래쪽,왼쪽 안여백을 동시에 지정 -->
+   </padding>
+   
+   <children><!-- 자식컨트롤 추가 -->
+     <TextField><!-- TextField는 한줄 입력박스 -->
+      <prefWidth>200</prefWidth><!-- 입력박스 폭너비 -->
+     </TextField>
+     
+     <Button>
+      <text>확인</text><!-- 버튼 위 캡션 문자열 -->
+     </Button>
+   </children>
+</HBox>
+
+

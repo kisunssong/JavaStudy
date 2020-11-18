@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1"
+fx.controller="RootController" prefHeight="300.0" prefWidth="500.0"
+alignment="CENTER" spacing="20.0">
+<!-- RootController 가 이벤트 처리 클래스=>별도 자바코드 처리 -->
+	<children>
+	  <Button fx:id="btn1" text="버튼1"/>
+	  <!-- fx_id 속성명과 RootControlloer클래스의 멤버변수명이 일치해야 한다. -->
+	  <Button fx:id="btn2" text="버튼2" onAction="#handleBtn2Action" />
+	  <!-- 컨트롤러 클래스에서 이벤트 등록하지 않고 xml에서 이벤트 등록하는 것이다.
+	  이벤트 등록방식이 onAction="#메서드명"이다. 해당 메서드명을 컨트롤러 클래스에서 정의해 주어야 한다. -->
+	  
+	</children>
+	</HBox>

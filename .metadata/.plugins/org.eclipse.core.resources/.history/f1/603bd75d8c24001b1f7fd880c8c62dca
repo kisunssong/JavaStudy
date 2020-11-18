@@ -1,8 +1,0 @@
-package com.naver.model;
-
-public interface IShapeClass {
-	 
-	 static void pr(IShapeClass draw) {
-		 
-	 }
-}

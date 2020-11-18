@@ -1,7 +1,0 @@
-package net.abc.model02;
-
-import net.abc.model01.AbsRef;
-
-public class Circ extends AbsRef {
-
-}
